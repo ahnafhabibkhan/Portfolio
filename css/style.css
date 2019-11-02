@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+.section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    /* box-shadow: 4px 8px 6px rgb(210, 220, 228); */
+}
+
+body {
+    background-color: #E6F3FF;
+}
+
+@font-face {
+    src: url(../fonts/Quicksand-Regular.ttf);
+    font-family: Quicksand_Regular;
+}
+
+@font-face {
+    src: url(../fonts/Quicksand-Light.ttf);
+    font-family: Quicksand_Light;
+}
+
+@font-face {
+    src: url(../fonts/Quicksand-Medium.ttf);
+    font-family: QM;
+}
+
+
+/* Common part ends(common part includes background and container)*/
+
+.logo {
+    padding-top: 15px;
+}
+
+.about {
+    padding-top: 30px !important;
+    padding-bottom: 60px;
+}
+
+.about_header {
+    margin-top: 40px;
+    color: #0E181F;
+    font-size: 25px;
+    font-family: Quicksand_Regular;
+}
+
+.about_p {
+    color: #0E181F;
+    font-size: 16px;
+    font-family: Quicksand_Light;
+    padding-bottom: 30px;
+}
+
+.anchorow {
+    padding-top: 60px;
+}
+
+.Header_options {
+    color: #0E181F;
+    font-size: 16px;
+    font-family: QM;
+}
+
+.project {
+    color: #0E181F;
+    font-size: 16px;
+    font-family: Quicksand_Regular;
+}
+
+.ProjectRow {
+    padding-bottom: 220px !important;
+    position: relative;
+    padding-top: 10px !important;
+}
+
+.ProjectRow:after {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 180px;
+    background-color: aqua;
+    top: 10px !important;
+    left: 40px;
+    z-index: 999;
+}
+
+.achievement_ul {
+    list-style: none;
+    margin-left: 55px;
+}
+
+.achievement_ul li {
+    padding-bottom: 16px;
+    color: #0E181F;
+    font-size: 16px;
+    font-family: Quicksand_Light;
+}
+
+.achievements {
+    color: #0E181F;
+    font-size: 16px;
+    font-family: Quicksand_Regular;
+}
+
+.achievement_ul li::before {
+    content: "\2022";
+    color: #E6F3FF;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.footer {
+    padding-top: 20px!important;
+    padding-bottom: 60px;
+}
