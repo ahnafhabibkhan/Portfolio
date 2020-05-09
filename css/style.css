@@ -28,7 +28,7 @@ img {
 }
 
 body {
-    background-color: #E6F3FF;
+    background-color: rgb(199, 204, 209);
 }
 
 @font-face {
@@ -63,6 +63,7 @@ body {
     color: #0E181F;
     font-size: 25px;
     font-family: Quicksand_Regular;
+    margin-left: 2em;
 }
 
 .about_p {
@@ -70,6 +71,7 @@ body {
     font-size: 16px;
     font-family: Quicksand_Light;
     padding-bottom: 30px;
+    margin-left: 51.5px;
 }
 
 .anchorow {
